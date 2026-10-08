@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Patient Queue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🏥 Hospital Patient Queue</h1>
+        <p class="subtitle">Patient Queue Management System</p>
+
+        <div class="form">
+            <input type="number" id="id" placeholder="Patient ID">
+            <input type="text" id="name" placeholder="Patient Name">
+            <input type="number" id="age" placeholder="Age">
+            <input type="text" id="problem" placeholder="Problem">
+
+            <button onclick="addPatient()">Add Patient</button>
+        </div>
+
+        <div class="queue">
+            <h2>Waiting Patients</h2>
+
+            <p>Total Patients: <span id="count">0</span></p>
+
+            <div id="patientList">
+                <p>No patients waiting.</p>
+            </div>
+
+            <button onclick="servePatient()">Serve Next Patient</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
