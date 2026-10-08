@@ -9,18 +9,14 @@ A web-based platform designed to track, report, and claim lost and found items e
 - **Report Lost Items:** Users can submit reports with descriptions, categories, and last known locations.
 - **Report Found Items:** Finders can log discovered items along with drop-off/contact details.
 - **Search & Filter:** Search by item name, date, category, or status (Open, Claimed, Returned).
-- **Claim Verification:** Mechanism to verify ownership before releasing an item.
 - **Admin Dashboard:** Manage entries, approve claims, and monitor resolution statistics.
 
 ---
 
 ## 🛠️ Built With
 
-- **Frontend:** HTML, CSS, JavaScript *(or React / Vue / Angular)*
-- **Backend:** Node.js / Express *(or Python / Django / Flask / PHP / Java)*
-- **Database:** MongoDB / MySQL / PostgreSQL
-- **Authentication:** JWT / Session-based auth
-
+- **Frontend:** HTML, CSS, JavaScript 
+- **Backend: C programming language
 ---
 
 ## 🚀 Getting Started
